@@ -19,7 +19,7 @@ BodyCalculator to nowoczesna, responsywna aplikacja webowa, która pomaga w obli
 
 ## Demo
 
-![Ekran główny](screen.png)
+![Ekran główny](Screen.png)
 
 
 ## Instalacja i uruchomienie
