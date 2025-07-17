@@ -13,13 +13,19 @@ BodyCalculator to nowoczesna, responsywna aplikacja webowa, która pomaga w obli
 ## Technologie
 
 - HTML5
-- CSS3 (z animacjami i efektem glassmorphism)
-- JavaScript (czysta, vanilla)
+- CSS3
+- JavaScript 
+
+
+## Demo
+
+![Ekran główny](screen.png)
+
 
 ## Instalacja i uruchomienie
 
 1. Sklonuj repozytorium:
-git clone https://github.com/twoj-login/bodycalculator.git
+git clone https://github.com/ParzY1/bodycalculator.git
 2. Otwórz plik `index.html` w swojej ulubionej przeglądarce (np. Chrome, Firefox).
 3. Korzystaj z aplikacji bez konieczności instalacji dodatkowego oprogramowania.
 
