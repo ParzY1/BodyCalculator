@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalkulatory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Body Calculator</h1>
+
+    <section>
+      <h2>Kalkulator BMI</h2>
+      <input type="number" id="bmi-weight" placeholder="Waga (kg)">
+      <input type="number" id="bmi-height" placeholder="Wzrost (cm)">
+      <button onclick="calculateBMI()">Oblicz BMI</button>
+      <p id="bmi-result"></p>
+    </section>
+
+    <section>
+      <h2>Zapotrzebowanie Kaloryczne (TDEE)</h2>
+      <input type="number" id="tdee-weight" placeholder="Waga (kg)">
+      <input type="number" id="tdee-height" placeholder="Wzrost (cm)">
+      <input type="number" id="tdee-age" placeholder="Wiek">
+      <select id="tdee-gender">
+        <option value="male">Mężczyzna</option>
+        <option value="female">Kobieta</option>
+      </select>
+      <select id="tdee-activity">
+        <option value="1.2">Brak aktywności</option>
+        <option value="1.375">Lekka aktywność</option>
+        <option value="1.55">Umiarkowana</option>
+        <option value="1.725">Duża aktywność</option>
+      </select>
+      <button onclick="calculateTDEE()">Oblicz TDEE</button>
+      <p id="tdee-result"></p>
+    </section>
+
+    <section>
+      <h2>Proces Chudnięcia</h2>
+      <input type="number" id="current-weight" placeholder="Obecna waga (kg)">
+      <input type="number" id="target-weight" placeholder="Docelowa waga (kg)">
+      <input type="number" id="daily-deficit" placeholder="Dzienne ograniczenie kcal (np. 500)">
+      <button onclick="calculateFatLoss()">Oblicz plan</button>
+      <p id="fatloss-result"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
